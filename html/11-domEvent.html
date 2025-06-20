@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .highlight {
+        background-color: yellow;
+    }
+</style>
+</head>
+<body>
+    <button id="btn">버튼클릭</button>
+
+    <p id="text">이 문장을 강조할 거야.</p>
+    <button onclick="highlight()">강조하기</button>
+
+    <div id="container"></div>
+    <button onclick="addBox()">박스 추가하기</button>
+
+    <p id="delTarget">이 문장은 곧 사라집니다.</p>
+    <button onclick="removeText()">삭제</button>
+
+    <p id="styleMe">색 바꾸기</p>
+    <button onclick="changeColor()">색상 변경</button>
+
+    <img id="myImg" src="./image/lightbulb.png" width="100">
+    <button onclick="changeImg()">이미지 바꾸기</button>
+
+    <script src="../js/11-DOMEvent.js" />
+</body>
+</html>
